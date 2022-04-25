@@ -27,11 +27,12 @@
   "rules": {
     "no-unused-vars": "off",
     "no-console": 0,
-    "@typescript-eslint/no-unused-vars": 1,
+    "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/no-var-requires": "off",
     "react/prop-types": "off",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off"
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-non-null-assertion": "off"
   }
 }
